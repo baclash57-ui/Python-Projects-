@@ -1,0 +1,21 @@
+# band name generator program
+# Greet the user first
+print("Hey there looking for a band name but can't come up with one... \nDon't worry I've got you covered.")
+
+# Ask the User for the name of the city they grew up in
+city = input ("Whats the name of the city you grew up in?\n ")
+
+#compliment the city name
+print (f"Oh {city}, I love the weather over there")
+
+# Ask them for the name of their pets name
+
+petName = input ("What's the name of your pet?\n ")
+
+#Coplimebt the pet name 
+print (f"Ah {petName}, I'm digging it")
+
+# add both of the names to get the band name
+bandName = ( city + " " +  petName)
+
+print(f"Your band name is {bandName}")
